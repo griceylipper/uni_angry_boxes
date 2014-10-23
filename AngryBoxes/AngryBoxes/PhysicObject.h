@@ -27,6 +27,7 @@ public:
 
 private:
 	friend class PhysicsSimulation;
+	friend class GameObject;
 	PhysicsObject(float mass, const Vector2& position, const OrientedBoundingBox& shape);
 	PhysicsObject();
 
